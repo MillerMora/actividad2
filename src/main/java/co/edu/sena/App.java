@@ -79,6 +79,17 @@ public class App
         System.err.println("El área del cilindro es: " + areaCylinder);
         System.err.println("El volumen del cilindro es: " + volumeCylinder + "\n");
 
+        // Septimo punto 
+
+        System.err.println("Calcular la longitud de una circunferencia y el área del círculo inscrito");
+        System.err.println("Ingrese el radio de la circunferencia: ");
+        double radiusCircle = src.nextDouble();
+
+        double circumference = 2 * Math.PI * radiusCircle;
+        double areaInscribedCircle = Math.PI * Math.pow(radiusCircle, 2);
+
+        System.err.println("La longitud de la circunferencia es: " + circumference);
+        System.err.println("El área del círculo inscrito es: " + areaInscribedCircle + "\n");
     }
     
 }
