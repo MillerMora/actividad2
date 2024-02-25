@@ -45,6 +45,19 @@ public class App
 
         System.err.println("El resultado es:" + result3 + "\n");
 
+        // Cuarto punto
+
+        System.err.println("Conversion de euros a dólares");
+        System.err.println("Ingrese la cantidad de euros a convertir en dólares:");
         
+        Scanner convert = new Scanner(System.in);
+        double euro = convert.nextDouble();
+        double dolar = 1.08 ;
+        double result4 = euro * dolar;
+
+        System.err.println(euro + " euros es igual a " + result4 + " dolares" + "\n");
+
+
     }
+    
 }
