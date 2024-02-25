@@ -61,13 +61,23 @@ public class App
 
         double area = side * side ;
         double perimeter = 4 * side;
-        
+
         System.err.println("El área del cuadrado es: " + area);
         System.err.println("El perímetro del cuadrado es: " + perimeter + "\n");
 
         // Sexto punto
 
-        
+        System.err.println("Calcular el área y el volumen de un cilindro");
+        System.err.println("Ingrese el radio del cilindro: ");
+        double radiusCylinder = src.nextDouble();
+        System.err.println("Ingrese la altura del cilindro: ");
+        double heightCylinder = src.nextDouble();
+
+        double areaCylinder = 2 * Math.PI * radiusCylinder * (radiusCylinder + heightCylinder);
+        double volumeCylinder = Math.PI * Math.pow(radiusCylinder, 2) * heightCylinder;
+
+        System.err.println("El área del cilindro es: " + areaCylinder);
+        System.err.println("El volumen del cilindro es: " + volumeCylinder + "\n");
 
     }
     
