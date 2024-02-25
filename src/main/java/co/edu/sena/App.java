@@ -17,7 +17,7 @@ public class App
 
         double result = (base * height) / 2;
 
-        System.err.println("El área del triángulo es: " + result);
+        System.err.println("El área del triángulo es: " + result + "\n");
 
         // segundo punto
 
@@ -31,7 +31,7 @@ public class App
 
         float result1 = number1 + number2 ;
 
-        System.err.println("La suma de los 2 números es: " + result1 );
+        System.err.println("La suma de los 2 números es: " + result1 + "\n");
 
         // Tercer punto
 
@@ -43,7 +43,7 @@ public class App
 
         double result3 = Math.pow(number3, 2);
 
-        System.err.println("El resultado es:" + result3);
+        System.err.println("El resultado es:" + result3 + "\n");
 
         // Cuarto punto
 
@@ -55,7 +55,7 @@ public class App
         double dolar = 1.08 ;
         double result4 = euro * dolar;
 
-        System.err.println(euro + " euros es igual a " + result4 + " dolares");
+        System.err.println(euro + " euros es igual a " + result4 + " dolares" + "\n");
 
 
     }
