@@ -56,6 +56,21 @@ public class App
         double result4 = euro * dolar;
 
         System.err.println(euro + " euros es igual a " + result4 + " dolares" + "\n");
+        
+        // Quinto punto
+
+        System.err.println("Hallar perímetro y área");
+        System.err.println("Ingrese el valor de un lado: ");
+
+        Scanner worth = new Scanner(System.in);
+        double side =worth.nextDouble();
+
+        double area = side * side ;
+        double perimeters = 4 * side;
+
+        System.err.println("El área del cuadrado es: " + area);
+        System.err.println("El perímetro del cuadrado es: " + area); 
+
 
 
     }
