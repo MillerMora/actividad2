@@ -69,7 +69,7 @@ public class App
         double perimeters = 4 * side;
 
         System.err.println("El área del cuadrado es: " + area);
-        System.err.println("El perímetro del cuadrado es: " + area); 
+        System.err.println("El perímetro del cuadrado es: " + perimeters + "\n"); 
 
 
 
