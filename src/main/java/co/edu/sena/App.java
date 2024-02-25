@@ -20,26 +20,22 @@ public class App
         System.err.println("El área del triángulo es: " + result + "\n");
 
         // segundo punto
-
         System.err.println("Suma de dos números");
-        System.err.println("ingresa el primer número: ");
-        
-        Scanner addition = new Scanner(System.in);
-        float number1 = addition.nextFloat();
+        System.err.println("Ingresa el primer número: ");
+
+        float number1 = src.nextFloat();
+
         System.err.println("Ingresa el segundo número: ");
-        float number2 = addition.nextFloat();
+        float number2 = src.nextFloat();
 
         float result1 = number1 + number2 ;
-
         System.err.println("La suma de los 2 números es: " + result1 + "\n");
 
         // Tercer punto
 
         System.err.println("Número elevado al cuadrado");
         System.err.println("Ingrese un número: ");
-
-        Scanner elevation = new Scanner(System.in);
-        double number3 = elevation.nextDouble();
+        double number3 = src.nextDouble();
 
         double result3 = Math.pow(number3, 2);
 
@@ -47,31 +43,31 @@ public class App
 
         // Cuarto punto
 
-        System.err.println("Conversion de euros a dólares");
+        System.err.println("Conversión de euros a dólares");
         System.err.println("Ingrese la cantidad de euros a convertir en dólares:");
-        
-        Scanner convert = new Scanner(System.in);
-        double euro = convert.nextDouble();
+        double euro = src.nextDouble();
+
         double dolar = 1.08 ;
         double result4 = euro * dolar;
 
-        System.err.println(euro + " euros es igual a " + result4 + " dolares" + "\n");
+        System.err.println(euro + " euros es igual a " + result4 + " dólares" + "\n");
         
         // Quinto punto
 
         System.err.println("Hallar perímetro y área");
         System.err.println("Ingrese el valor de un lado: ");
 
-        Scanner worth = new Scanner(System.in);
-        double side =worth.nextDouble();
+        double side = src.nextDouble();
 
         double area = side * side ;
-        double perimeters = 4 * side;
-
+        double perimeter = 4 * side;
+        
         System.err.println("El área del cuadrado es: " + area);
-        System.err.println("El perímetro del cuadrado es: " + perimeters + "\n"); 
+        System.err.println("El perímetro del cuadrado es: " + perimeter + "\n");
 
+        // Sexto punto
 
+        
 
     }
     
