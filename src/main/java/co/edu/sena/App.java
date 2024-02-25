@@ -90,6 +90,21 @@ public class App
 
         System.err.println("La longitud de la circunferencia es: " + circumference);
         System.err.println("El área del círculo inscrito es: " + areaInscribedCircle + "\n");
+
+        // octavo punto
+
+        System.err.println("Calcular el promedio de tres números");
+        System.err.println("Ingrese el primer número: ");
+        double num1 = src.nextDouble();
+        System.err.println("Ingrese el segundo número: ");
+        double num2 = src.nextDouble();
+        System.err.println("Ingrese el tercer número: ");
+        double num3 = src.nextDouble();
+
+        double average = (num1 + num2 + num3) / 3;
+
+        System.err.println("El promedio de los tres números es: " + average + "\n");
+
     }
     
 }
