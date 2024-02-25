@@ -29,33 +29,33 @@ public class App
         float number2 = src.nextFloat();
 
         float result1 = number1 + number2 ;
-        System.err.println("La suma de los 2 números es: " + result1 + "\n");
+        System.err.println("La suma de los dos números es: " + result1 + "\n");
 
         // Tercer punto
 
         System.err.println("Número elevado al cuadrado");
-        System.err.println("Ingrese un número: ");
+        System.err.println("Ingresa un número: ");
         double number3 = src.nextDouble();
 
         double result3 = Math.pow(number3, 2);
 
-        System.err.println("El resultado es:" + result3 + "\n");
+        System.err.println("El resultado es: " + result3 + "\n");
 
         // Cuarto punto
 
         System.err.println("Conversión de euros a dólares");
-        System.err.println("Ingrese la cantidad de euros a convertir en dólares:");
+        System.err.println("Ingresa la cantidad de euros a convertir en dólares:");
         double euro = src.nextDouble();
 
         double dolar = 1.08 ;
         double result4 = euro * dolar;
 
-        System.err.println(euro + " euros es igual a " + result4 + " dólares" + "\n");
+        System.err.println(euro + " euros equivale a " + result4 + " dólares" + "\n");
         
         // Quinto punto
 
         System.err.println("Hallar perímetro y área");
-        System.err.println("Ingrese el valor de un lado: ");
+        System.err.println("Ingresa el valor de un lado del cuadrado: ");
 
         double side = src.nextDouble();
 
@@ -68,21 +68,18 @@ public class App
         // Sexto punto
 
         System.err.println("Calcular el área y el volumen de un cilindro");
-        System.err.println("Ingrese el radio del cilindro: ");
+        System.err.println("Ingresa el radio del cilindro: ");
         double radiusCylinder = src.nextDouble();
-        System.err.println("Ingrese la altura del cilindro: ");
+        System.err.println("Ingresa la altura del cilindro: ");
         double heightCylinder = src.nextDouble();
 
         double areaCylinder = 2 * Math.PI * radiusCylinder * (radiusCylinder + heightCylinder);
         double volumeCylinder = Math.PI * Math.pow(radiusCylinder, 2) * heightCylinder;
 
-        System.err.println("El área del cilindro es: " + areaCylinder);
-        System.err.println("El volumen del cilindro es: " + volumeCylinder + "\n");
-
         // Septimo punto 
 
         System.err.println("Calcular la longitud de una circunferencia y el área del círculo inscrito");
-        System.err.println("Ingrese el radio de la circunferencia: ");
+        System.err.println("Ingresa el radio de la circunferencia: ");
         double radiusCircle = src.nextDouble();
 
         double circumference = 2 * Math.PI * radiusCircle;
@@ -94,11 +91,11 @@ public class App
         // octavo punto
 
         System.err.println("Calcular el promedio de tres números");
-        System.err.println("Ingrese el primer número: ");
+        System.err.println("Ingresa el primer número: ");
         double num1 = src.nextDouble();
-        System.err.println("Ingrese el segundo número: ");
+        System.err.println("Ingresa el segundo número: ");
         double num2 = src.nextDouble();
-        System.err.println("Ingrese el tercer número: ");
+        System.err.println("Ingresa el tercer número: ");
         double num3 = src.nextDouble();
 
         double average = (num1 + num2 + num3) / 3;
